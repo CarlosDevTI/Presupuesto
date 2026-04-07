@@ -1,0 +1,24 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: presupuesto-backend
+    env_file:
+      - .env
+    volumes:
+      - ./data:/workspace/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-}
+    container_name: presupuesto-frontend
+    depends_on:
+      - backend
+    ports:
+      - "${APP_PORT:-8013}:80"
+    restart: unless-stopped

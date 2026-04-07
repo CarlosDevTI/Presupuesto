@@ -1,0 +1,57 @@
+﻿{
+  "name": "Dataset Demo Congene",
+  "source_sheet": "demo",
+  "warnings": [
+    "Se activo el dataset demo para mantener el dashboard disponible."
+  ],
+  "import_stats": {
+    "source_rows": 10,
+    "normalized_entries": 30,
+    "unique_accounts": 10,
+    "months": ["Ene-26", "Feb-26", "Mar-26"],
+    "has_responsible": false,
+    "header_rows": 1,
+    "account_lengths": [1, 4, 6, 8]
+  },
+  "entries": [
+    {"account_code":"5","account_name":"GASTOS","area":null,"responsible":null,"level":1,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":760000000,"executed":715000000,"variance_value":-45000000,"variance_pct":-5.92,"execution_pct":94.08,"is_leaf":false},
+    {"account_code":"5","account_name":"GASTOS","area":null,"responsible":null,"level":1,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":800000000,"executed":810000000,"variance_value":10000000,"variance_pct":1.25,"execution_pct":101.25,"is_leaf":false},
+    {"account_code":"5","account_name":"GASTOS","area":null,"responsible":null,"level":1,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":840000000,"executed":905000000,"variance_value":65000000,"variance_pct":7.74,"execution_pct":107.74,"is_leaf":false},
+
+    {"account_code":"5105","account_name":"BENEFICIO A EMPLEADOS","area":"TALENTO HUMANO","responsible":null,"level":4,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":220000000,"executed":205000000,"variance_value":-15000000,"variance_pct":-6.82,"execution_pct":93.18,"is_leaf":false},
+    {"account_code":"5105","account_name":"BENEFICIO A EMPLEADOS","area":"TALENTO HUMANO","responsible":null,"level":4,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":230000000,"executed":240000000,"variance_value":10000000,"variance_pct":4.35,"execution_pct":104.35,"is_leaf":false},
+    {"account_code":"5105","account_name":"BENEFICIO A EMPLEADOS","area":"TALENTO HUMANO","responsible":null,"level":4,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":240000000,"executed":285000000,"variance_value":45000000,"variance_pct":18.75,"execution_pct":118.75,"is_leaf":false},
+
+    {"account_code":"510503","account_name":"SUELDOS","area":"TALENTO HUMANO","responsible":null,"level":6,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":220000000,"executed":205000000,"variance_value":-15000000,"variance_pct":-6.82,"execution_pct":93.18,"is_leaf":false},
+    {"account_code":"510503","account_name":"SUELDOS","area":"TALENTO HUMANO","responsible":null,"level":6,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":230000000,"executed":240000000,"variance_value":10000000,"variance_pct":4.35,"execution_pct":104.35,"is_leaf":false},
+    {"account_code":"510503","account_name":"SUELDOS","area":"TALENTO HUMANO","responsible":null,"level":6,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":240000000,"executed":285000000,"variance_value":45000000,"variance_pct":18.75,"execution_pct":118.75,"is_leaf":false},
+
+    {"account_code":"51050301","account_name":"Sueldos","area":"TALENTO HUMANO","responsible":null,"level":8,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":220000000,"executed":205000000,"variance_value":-15000000,"variance_pct":-6.82,"execution_pct":93.18,"is_leaf":true},
+    {"account_code":"51050301","account_name":"Sueldos","area":"TALENTO HUMANO","responsible":null,"level":8,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":230000000,"executed":240000000,"variance_value":10000000,"variance_pct":4.35,"execution_pct":104.35,"is_leaf":true},
+    {"account_code":"51050301","account_name":"Sueldos","area":"TALENTO HUMANO","responsible":null,"level":8,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":240000000,"executed":285000000,"variance_value":45000000,"variance_pct":18.75,"execution_pct":118.75,"is_leaf":true},
+
+    {"account_code":"5230","account_name":"GASTOS VARIOS","area":"GER. ADMON","responsible":null,"level":4,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":180000000,"executed":170000000,"variance_value":-10000000,"variance_pct":-5.56,"execution_pct":94.44,"is_leaf":false},
+    {"account_code":"5230","account_name":"GASTOS VARIOS","area":"GER. ADMON","responsible":null,"level":4,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":190000000,"executed":205000000,"variance_value":15000000,"variance_pct":7.89,"execution_pct":107.89,"is_leaf":false},
+    {"account_code":"5230","account_name":"GASTOS VARIOS","area":"GER. ADMON","responsible":null,"level":4,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":200000000,"executed":230000000,"variance_value":30000000,"variance_pct":15.0,"execution_pct":115.0,"is_leaf":false},
+
+    {"account_code":"523050","account_name":"IMPUESTOS ASUMIDOS","area":"GER. ADMON","responsible":null,"level":6,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":180000000,"executed":170000000,"variance_value":-10000000,"variance_pct":-5.56,"execution_pct":94.44,"is_leaf":false},
+    {"account_code":"523050","account_name":"IMPUESTOS ASUMIDOS","area":"GER. ADMON","responsible":null,"level":6,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":190000000,"executed":205000000,"variance_value":15000000,"variance_pct":7.89,"execution_pct":107.89,"is_leaf":false},
+    {"account_code":"523050","account_name":"IMPUESTOS ASUMIDOS","area":"GER. ADMON","responsible":null,"level":6,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":200000000,"executed":230000000,"variance_value":30000000,"variance_pct":15.0,"execution_pct":115.0,"is_leaf":false},
+
+    {"account_code":"52305001","account_name":"Impuestos asumidos","area":"GER. ADMON","responsible":null,"level":8,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":180000000,"executed":170000000,"variance_value":-10000000,"variance_pct":-5.56,"execution_pct":94.44,"is_leaf":true},
+    {"account_code":"52305001","account_name":"Impuestos asumidos","area":"GER. ADMON","responsible":null,"level":8,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":190000000,"executed":205000000,"variance_value":15000000,"variance_pct":7.89,"execution_pct":107.89,"is_leaf":true},
+    {"account_code":"52305001","account_name":"Impuestos asumidos","area":"GER. ADMON","responsible":null,"level":8,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":200000000,"executed":230000000,"variance_value":30000000,"variance_pct":15.0,"execution_pct":115.0,"is_leaf":true},
+
+    {"account_code":"6105","account_name":"COSTOS OPERATIVOS","area":"CARTERA","responsible":null,"level":4,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":360000000,"executed":340000000,"variance_value":-20000000,"variance_pct":-5.56,"execution_pct":94.44,"is_leaf":false},
+    {"account_code":"6105","account_name":"COSTOS OPERATIVOS","area":"CARTERA","responsible":null,"level":4,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":380000000,"executed":365000000,"variance_value":-15000000,"variance_pct":-3.95,"execution_pct":96.05,"is_leaf":false},
+    {"account_code":"6105","account_name":"COSTOS OPERATIVOS","area":"CARTERA","responsible":null,"level":4,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":400000000,"executed":390000000,"variance_value":-10000000,"variance_pct":-2.5,"execution_pct":97.5,"is_leaf":false},
+
+    {"account_code":"610501","account_name":"SERVICIOS OPERATIVOS","area":"CARTERA","responsible":null,"level":6,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":360000000,"executed":340000000,"variance_value":-20000000,"variance_pct":-5.56,"execution_pct":94.44,"is_leaf":false},
+    {"account_code":"610501","account_name":"SERVICIOS OPERATIVOS","area":"CARTERA","responsible":null,"level":6,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":380000000,"executed":365000000,"variance_value":-15000000,"variance_pct":-3.95,"execution_pct":96.05,"is_leaf":false},
+    {"account_code":"610501","account_name":"SERVICIOS OPERATIVOS","area":"CARTERA","responsible":null,"level":6,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":400000000,"executed":390000000,"variance_value":-10000000,"variance_pct":-2.5,"execution_pct":97.5,"is_leaf":false},
+
+    {"account_code":"61050101","account_name":"Servicios operativos","area":"CARTERA","responsible":null,"level":8,"month_key":"2026-01","month_label":"Ene-26","month_date":"2026-01-01","projected":360000000,"executed":340000000,"variance_value":-20000000,"variance_pct":-5.56,"execution_pct":94.44,"is_leaf":true},
+    {"account_code":"61050101","account_name":"Servicios operativos","area":"CARTERA","responsible":null,"level":8,"month_key":"2026-02","month_label":"Feb-26","month_date":"2026-02-01","projected":380000000,"executed":365000000,"variance_value":-15000000,"variance_pct":-3.95,"execution_pct":96.05,"is_leaf":true},
+    {"account_code":"61050101","account_name":"Servicios operativos","area":"CARTERA","responsible":null,"level":8,"month_key":"2026-03","month_label":"Mar-26","month_date":"2026-03-01","projected":400000000,"executed":390000000,"variance_value":-10000000,"variance_pct":-2.5,"execution_pct":97.5,"is_leaf":true}
+  ]
+}
